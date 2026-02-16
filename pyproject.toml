@@ -2,7 +2,7 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "machine-name"
+name = "sapient-machine"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
@@ -16,7 +16,7 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["machine-name"]
+keywords = ["sapient-machine"]
 
 dependencies = [
     "electroid >= 0.0.16",
@@ -28,8 +28,8 @@ dependencies = [
 ]
 
 [project.scripts]
-machine-name = "machine_name.cli:main"
+sapient-machine = "sapient_machine.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/machine-name/machine-name"
-"Bug Tracker" = "https://github.com/machine-name/machine-name/issues"
+"Homepage" = "https://github.com/sapient-machine/sapient-machine"
+"Bug Tracker" = "https://github.com/sapient-machine/sapient-machine/issues"

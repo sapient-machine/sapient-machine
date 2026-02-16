@@ -11,8 +11,8 @@ import yaml
 from . import githf  # from .
 
 # Constants for the private GitHub repo holding the system prompt
-MACHINE_ORGANIZATION_NAME = 'machine-name'
-PRIVATE_REPO_WITH_TEXT = 'machine_name'
+MACHINE_ORGANIZATION_NAME = 'sapient-machine'
+PRIVATE_REPO_WITH_TEXT = 'sapient_machine'
 SYSTEM_PROMPT_FILE = 'machina.yaml'
 
 
